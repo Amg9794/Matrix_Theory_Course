@@ -1,6 +1,6 @@
 # Matrix Analysis, spring semester 2023
 
-This repository contains the notebooks for the exercises sessions of the EPFL bachelor course [EE-312 Matrix Analysis](https://edu.epfl.ch/studyplan/en/bachelor/electrical-and-electronics-engineering/coursebook/matrix-analysis-EE-312) ([moodle](https://moodle.epfl.ch/course/view.php?id=16942)).
+This repository contains the notebooks for the exercises sessions of the course Matrix Theory
 
 The course will address the following topics:
 - Linear transformations
@@ -14,10 +14,6 @@ The course will address the following topics:
 - Linear differential and difference equations
 
 
-## Installation
-
-### Noto
-You can run the notebooks using EPFL's jupyterhub service <https://noto.epfl.ch>. In this case you only need to login into noto, clone this repository using the `Git -> Clone a repository` menu. Noto's default environment already has all the required packages pre-installed.
 
 ### Local installation
 For a local installation, you will need [git], [Python], and packages such as [numpy](https://numpy.org) or [Python scientific stack][scipy].
