@@ -52,45 +52,7 @@ Every time you want to work, do the following:
 [conda-forge]: https://conda-forge.org
 [test_install]: https://nbviewer.org/github/epfl-lts2/matrix-analysis-2023/blob/master/test_install.ipynb
 
-### Binder/Colab...
-You can also run those notebooks using other online services such as [binder](https://mybinder.org) or [Google colab](https://colab.research.google.com/).
 
-Clicking on one of the badges below will open this repository in binder/colab.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/epfl-lts2/matrix-analysis-2023/HEAD)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epfl-lts2/matrix-analysis-2023/)
 
-### Workaround for MacOS swiss layout keyboards
-Jupyterlab suffers from an annoying quirk when using a swiss layout keyboard on MacOs which prevents you from (simply) typing the '@' character in a cell using `Alt + G`. This is a [known issue](https://github.com/jupyterlab/jupyterlab/issues/7704), for which a workaround exists.
 
-Create a keyboard shortcut: open `Settings>Advanced Settings>Keyboard Shortcuts` and add the following configuration block:
-```
-{
-  shortcuts: [
-    {
-      command: 'apputils:run-first-enabled',
-      selector: 'body',
-      keys: [
-        'Alt G',
-      ],
-      args: {
-        commands: [
-          'console:replace-selection',
-          'fileeditor:replace-selection',
-          'notebook:replace-selection',
-        ],
-        args: {
-          text: '@',
-        },
-      },
-    },
-  ],
-}
-``` 
-
-## Team
-
-* Lecturer:
-[Pierre Vandergheynst](https://people.epfl.ch/pierre.vandergheynst)
-* Assistants:
-[Nicolas Aspert](https://people.epfl.ch/nicolas.aspert),
