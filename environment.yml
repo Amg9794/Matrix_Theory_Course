@@ -1,0 +1,12 @@
+name: matrix-analysis-2023
+channels:
+  - defaults
+dependencies:
+  - jupyterlab=3.5.3=py39hecd8cb5_0
+  - matplotlib=3.6.2=py39hecd8cb5_0
+  - networkx=2.8.4=py39hecd8cb5_0
+  - numpy=1.23.5=py39he696674_0
+  - python=3.9.16=h218abb5_0
+  - scikit-image=0.19.3=py39hcec6c5f_1
+  - scikit-learn=1.2.1=py39hcec6c5f_0
+  - scipy=1.10.0=py39h91c6ef4_1
