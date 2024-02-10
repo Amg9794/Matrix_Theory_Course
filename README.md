@@ -28,8 +28,8 @@ Follow the below instructions to install it and create an environment for the co
    Windows: open the Anaconda Prompt from the Start menu.
 1. Install git with `conda install git`.
 1. Navigate to the folder where you want to store the course material with `cd path/to/folder`.
-1. Download this repository with `git clone https://github.com/epfl-lts2/matrix-analysis-2023`.
-1. Enter the repository with `cd matrix-analysis-2023`.
+1. Download this repository with `git clone https://github.com/epfl-lts2/matrix-theory-2023`.
+1. Enter the repository with `cd matrix-theory-2023`.
 1. Create an environment with the packages required for the course with `conda env create -f environment.yml`.
 1. Run the steps below to start Jupyter. You should be able to run the [`test_install.ipynb`][test_install] notebook.
 
@@ -40,7 +40,7 @@ Every time you want to work, do the following:
 1. Navigate to the folder where you stored the course material with `cd path/to/folder/matrix-analysis-2023`.
 1. Start Jupyter with `jupyter lab`. The command should open a new tab in your web browser.
 1. Edit and run the notebooks from your browser.
-1. Once done, you can run `conda deactivate` to leave the `matrix-analysis-2023` environment.
+1. Once done, you can run `conda deactivate` to leave the `matrix-theory-2023` environment.
 
 
 [git]: https://git-scm.com
